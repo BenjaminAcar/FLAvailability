@@ -1,9 +1,3 @@
-This repository is based on the work published in the following paper:
-```
-Title: Ensuring Federated Learning Reliability for Autonomous Driving
-Authors: Benjamin Acar, Marius Sterling
-```
-
 Before performing the benchmarks, it is advisable to reinitialize the cluster beforehand. The code for this can be found in the parent folder.
 
 Explanation of all files/folders:
