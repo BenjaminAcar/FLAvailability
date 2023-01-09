@@ -1,6 +1,6 @@
 This repository is based on the work published in the following paper:
 ```
-Title: Ensuring Federated Learning Reliability for Autonomous Driving
+Title: Ensuring Federated Learning Availability for Autonomous Driving
 Authors: Benjamin Acar, Marius Sterling, Fikret Sivrikaya, Sahin Albayrak
 ```
 This repository is optimized for use on Linux systems. If you are running on a Windows machine, you may need to translate the bash code before running it. However, the code is well-documented with clear comments and terminal output commands, making it easy to troubleshoot any issues that may arise on your machine.
