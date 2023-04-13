@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: client-2-deployment
+spec:
+  restartPolicy: Never
+  containers:
+  - name: client-2
+    image: client-2:v1.2
+    imagePullPolicy: Never
+    env:
+    - name: POD_IP
+      value: $POD_IP

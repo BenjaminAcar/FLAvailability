@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: $NAME
+  labels:
+    app: interface-rest
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: interface-rest
+  template:
+    metadata:
+      labels:
+        app: interface-rest
+    spec:
+      containers:
+      - name: interface-rest
+        image: interface-rest:v1.1
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 8000
+        env:
+        - name: POD_IP
+          value: $POD_IP
+        - name: INITIAL_MASTER
+          value: $INITIAL_MASTER
