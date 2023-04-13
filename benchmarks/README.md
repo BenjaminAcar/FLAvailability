@@ -1,4 +1,4 @@
-Before performing the benchmarks, it is advisable to reinitialize the cluster beforehand (including the redis cluster + sentinel). The code for this can be found in the parent folder.
+Before performing the benchmarks, it is advisable to reinitialize the cluster beforehand (K8s cluster + redis cluster + sentinel). The code for this can be found in the parent folder.
 
 Explanation of all files/folders:
 - analysis.sh: This script performs the memtier benchmark. The output of the script are stored in the fles 'result1.log', 'result2.log', 'result3.log'.
